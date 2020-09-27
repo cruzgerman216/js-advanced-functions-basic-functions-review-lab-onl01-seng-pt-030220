@@ -19,6 +19,11 @@ function actionApplyer(num, arr){
   if (arr.length == 0){
     return num;
   }
-  console.log(arr);
-  return arr[num];
+  let i = 0;
+  let result = 0;
+  while(i < arr.length){
+    result = arr[0](num);
+    i--;
+  }
+  return result;
 }
