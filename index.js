@@ -12,3 +12,7 @@ function wrapAdjective(val = "*"){
     return "You are " + val + str + val + "!";
   }
 }
+
+function Calculator(){
+  
+}
