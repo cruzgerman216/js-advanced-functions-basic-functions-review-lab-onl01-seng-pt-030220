@@ -20,9 +20,9 @@ function actionApplyer(num, arr){
     return num;
   }
   let i = 0;
-  let result = 0;
+  let result = num;
   while(i < arr.length){
-    result = arr[0](num);
+    result = arr[0](result);
     i++;
   }
   return result;
