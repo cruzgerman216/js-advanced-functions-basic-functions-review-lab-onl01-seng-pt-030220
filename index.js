@@ -13,6 +13,4 @@ function wrapAdjective(val = "*"){
   }
 }
 
-function Calculator(){
-
-}
+let Calculator = {};
