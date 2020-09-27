@@ -7,6 +7,8 @@ function mondayWork(activity = "go to the office"){
   return "This Monday, I will " + activity + ".";
 }
 
-function wrapAdjective(){
-
+function wrapAdjective(val = "*"){
+  return function(str = "special"){
+    return "You are " + val + str + val + ".";
+  }
 }
