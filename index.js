@@ -22,7 +22,7 @@ function actionApplyer(num, arr){
   let i = 0;
   let result = num;
   while(i < arr.length){
-    result = arr[0](result);
+    result = arr[i](result);
     i++;
   }
   return result;
