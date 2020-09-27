@@ -16,5 +16,8 @@ function wrapAdjective(val = "*"){
 let Calculator = {add: function(a,b){return a+b;}, multiply: function(a,b){return a*b;}, subtract: function(a,b){return a-b;}, divide: function(a,b){return a/b;}};
 
 function actionApplyer(num, arr){
+  if (arr.length == 0){
+    return num
+  }
   return arr[num];
 }
