@@ -19,5 +19,6 @@ function actionApplyer(num, arr){
   if (arr.length == 0){
     return num;
   }
+  console.log(arr);
   return arr[num];
 }
